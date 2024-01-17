@@ -15,7 +15,10 @@ You could use this simplified accounting in case you work with an (external) acc
     'depends': ['base','sale'],
     'data': [
         'security/ir.model.access.csv',
+        'wizard/sale_order_wizard.xml',
         'views/sale_order_line.xml',
+        'views/res_config_settings_views.xml'
+
 
     ],
     'installable': True,
